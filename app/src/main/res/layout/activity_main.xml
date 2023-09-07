@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El juego de Triqui"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:contentDescription="@string/app_name" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredientes \n - Ajiaco \n - Papa"
+
+    </GridLayout>
+
+
+</LinearLayout>
